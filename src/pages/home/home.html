@@ -11,4 +11,13 @@
   <p>
     If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
   </p>
+
+  <button ion-button (click)="createToken()">Criar Token</button>
+
+  <ion-row>
+    {{status}}
+  </ion-row>
+  <ion-row>
+    {{result}}
+  </ion-row>
 </ion-content>
